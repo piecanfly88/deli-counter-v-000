@@ -19,5 +19,7 @@ def take_a_number(katz_deli, person)
 end
 
 
-
-# Welcome, Ada. You are number 1 in line.
+def now_serving(katz_deli)
+  person = katz_deli.shift
+  puts "Currently serving #{person}."
+end
