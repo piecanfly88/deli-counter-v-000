@@ -20,7 +20,6 @@ end
 
 
 def now_serving(katz_deli)
-  person = katz_deli.shift
   if katz_deli.length > 0
     person = katz_deli.shift
     puts "Currently serving #{person}."
